@@ -1,2 +1,2 @@
 # React-Shopping-Mart
-React based shopping mart application for shopping garments. It demonstrate concepts of Routing, Redux, Thunk, Hooks, Context API and Firebase.
+React and Redux based application for shopping garments. It also demonstrate concepts of Routing, Thunk, Hooks, Context API and Firebase.
