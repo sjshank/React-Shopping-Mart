@@ -1,0 +1,19 @@
+.logo-cls {
+  margin-top: -20px;
+}
+.header-cls {
+  background-color: #ffac41;
+}
+.cart-logo-cls {
+  width: 30px;
+  height: 30px;
+  margin-top: -8px;
+}
+.low-opacity{
+    opacity: 0.5;
+    cursor: not-allowed !important;
+    pointer-events: none;
+}
+h5{
+    cursor: pointer;
+}

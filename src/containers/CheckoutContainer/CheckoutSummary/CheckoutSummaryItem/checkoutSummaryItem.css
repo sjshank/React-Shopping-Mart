@@ -1,0 +1,18 @@
+tr.summary-item:hover,
+tr.summary-item:hover td,
+tr.summary-item td:hover {
+  background-color: #ffac41 !important;
+  color: rgba(0, 0, 0, 0.9);
+  border: 1px solid #ffac41;
+}
+.summary-item .fa {
+  cursor: pointer;
+}
+.summary-item .disable-minus-icon {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+tr td {
+  padding: 8px !important;
+}

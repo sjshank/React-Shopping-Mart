@@ -1,0 +1,43 @@
+.card-img-top {
+  height: 300px;
+}
+.card-group {
+  cursor: pointer;
+}
+.card-group .card {
+    border: 1px solid #343a40;
+}
+.card-group:hover .card {
+  transform: translateY(-5px);
+  transition: transform 0.5s;
+  transition-timing-function: ease;
+  border: 1px solid #ffac41;
+}
+.card-group:hover .card-footer {
+  background-color: #ffac41 !important;
+  border: 1px solid #ffac41;
+}
+.card-group:hover .product-selected {
+  background-color: #900d0d !important;
+  border: 1px solid #900d0d;
+}
+.product-selected-card,
+.card-group:hover .product-selected-card,
+.card-group .product-selected-card {
+  border: 1px solid #900d0d;
+}
+.product-selected {
+  background-color: #900d0d !important;
+}
+.card-footer:hover .add-to-cart-cls,
+.add-to-cart-cls {
+  color: #ffffff;
+  cursor: pointer;
+}
+.card-text {
+  font-size: 14px;
+}
+.shipping-img-cls {
+  width: 40px;
+  height: 40px;
+}

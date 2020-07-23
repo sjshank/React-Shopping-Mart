@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App ul {
+  list-style: none;
+}
+.App Button:hover,
+.App Button:focus,
+.App Button:active {
+  background-color: #ffac41 !important;
+  color: rgba(0, 0, 0, 0.9) !important;
+  border: 1px solid #ffac41 !important;
+  outline: none;
+  box-shadow: none !important;
+}
+.App Button:disabled {
+  color: #fff !important;
+  background-color: #343a40 !important;
+  border-color: #343a40 !important;
+}
+.App .total-price-cls {
+  font-weight: bold;
+  font-size: 28px;
+}
+.App hr{
+  border: 1px solid #343a40;
+  width: 30%;
+}
+.App .error-bckgd{
+  background-color: #900d0d !important;
+}
